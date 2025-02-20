@@ -1,0 +1,94 @@
+/* Stable Background */
+.login-bg {
+  /*background: #8e54e9;*/ /* Set a stable color */
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee); 
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-card-neon{
+  background: #222;
+  color: #000000;
+  width: 400px;
+  border-radius: 55px;
+  border: 1px solid rgb(233, 139, 205);
+  box-shadow: 0 0 10px rgb(224, 136, 187);
+  transition: transform 0.3s ease-in-out;
+}
+
+.login-card-neon:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #0ff, 0 0 40px rgb(0, 0, 0);
+}
+
+
+
+/* Animated Form Container */
+@keyframes fadeOut {
+  0% {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes formHover {
+  0% { transform: translateY(0px); }
+  100% { transform: translateY(0px); }
+}
+
+
+/* Input Fields */
+.form-control {
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  color: black;
+  transition: 0.3s;
+}
+
+.form-control:focus {
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+/* Eye Icon for Password */
+.position-absolute {
+  cursor: pointer;
+  font-size: 18px;
+  color: #333;
+}
+
+.position-absolute:hover {
+  color: black;
+}
+
+/* Submit Button */
+.login-btn {
+  font-size: 20px;
+  font-family: sans-serif;
+  background: #ff5e62;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.login-btn:hover {
+  background: #0a2185 !important;
+  color: white !important;
+  transform: scale(1.05);
+}
+
+/* Links */
+.create-acct {
+  color: blue;
+  font-size: 19px;
+}
+
+.create {
+  font-size: 20px;
+  color: black;
+}

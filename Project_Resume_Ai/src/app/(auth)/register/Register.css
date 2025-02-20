@@ -1,0 +1,42 @@
+.register-btn {
+  font-size: 20px;
+  font-family: sans-serif;
+  background: #ff5e62;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.register-btn:hover {
+  background: #0a2185 !important;
+  color: white !important;
+  transform: scale(1.05);
+}
+
+.register-form-container {
+  width: 400px; /* Ensures form takes full width */
+  max-height: 100%; /* Ensures no overflow */
+  flex-direction: column;
+  justify-content: center;
+
+  
+}
+
+.register-neon-card{
+  border-radius: 55px;
+  overflow: hidden;
+  max-height: 100%;
+  border: 1px solid rgb(71, 186, 214);
+  box-shadow: 0 0 10px rgb(224, 136, 187);
+  transition: transform 0.3s ease-in-out;
+}
+.register-neon-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #0ff, 0 0 40px rgb(0, 0, 0);
+}
+
+.register-bg{
+  background: linear-gradient(to left, #fbc2eb, #a6c1ee); 
+  height: 140vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
